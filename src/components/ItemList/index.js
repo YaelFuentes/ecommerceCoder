@@ -8,18 +8,17 @@ const ItemList = () => {
         <ItemListContainer
           listTitle='Articulos Veterinarios'
           listDescription='Lista de articulos , medicamentos, y demas productos para el cuidado de su mascota'
+          category={'accesorios'}
         />
         <ItemListContainer
           listTitle='Alimentos Balanceados'
           listDescription='La mas grande variedad de alimentos balanceados para perros y gatos'
+          category={'alimentos'}
         />
         <ItemListContainer
           listTitle='Analisis medicos'
           listDescription='Analisis y laboratorio para examenes clinicos, radiografias, Ecografias y mas'
-        />
-        <ItemListContainer
-          listTitle='Turnos peluqueria'
-          listDescription='Consulte para turnos de peluqueria y reservelo con tiempo'
+          category={'medicina'}
         />
       </div>
     </>

@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getProductById } from '../components/Mocks/Mocks';
 
 const ProductById = () => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [product, setProduct] = useState(null);
   const { id } = useParams();
   useEffect(() => {

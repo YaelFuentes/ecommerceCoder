@@ -1,23 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { getProducts } from '../components/Mocks/Mocks';
-import {Link} from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 const Articles = () => {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
+
+  const {categoryId} = useParams();
 
   useEffect(() => {
-    getProducts()
+    getProducts(categoryId)
       .then((product) => setArticles(product))
       .catch(err => console.log({ err }))
       .finally(() => setLoading(false))
-  }, []);
+  }, [categoryId]);
 
   if (loading) return <p className="text-2xl max-w-5xl m-auto font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-[#a64aff] text-center">
     Cargando listado de productos...
   </p>
 
-  
+
   return (
     <div class="grid grid-cols-3 gap-4">
       {

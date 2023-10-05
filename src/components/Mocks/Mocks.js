@@ -4,7 +4,7 @@ const Articles = [
     "title": "Alimento para gatos premium",
     "price": 15.99,
     "description": "Un alimento de alta calidad formulado específicamente para las necesidades nutricionales de los gatos.",
-    "category": "Alimentos para mascotas",
+    "category": "alimentos",
     "image": "https://example.com/images/alimento-gatos.jpg"
   },
   {
@@ -12,7 +12,7 @@ const Articles = [
     "title": "Collar antipulgas y garrapatas para perros",
     "price": 9.99,
     "description": "Un collar eficaz que protege a tu perro de pulgas y garrapatas durante varios meses.",
-    "category": "Control de parásitos",
+    "category": "medicina",
     "image": "https://example.com/images/collar-antipulgas.jpg"
   },
   {
@@ -20,7 +20,7 @@ const Articles = [
     "title": "Shampoo hipoalergénico para mascotas",
     "price": 12.99,
     "description": "Un shampoo suave y hipoalergénico diseñado para mascotas con piel sensible.",
-    "category": "Cuidado de la piel",
+    "category": "medicina",
     "image": "https://example.com/images/shampoo-hipoalergenico.jpg"
   },
   {
@@ -28,7 +28,7 @@ const Articles = [
     "title": "Juguetes para gatos surtidos",
     "price": 8.99,
     "description": "Un conjunto de juguetes variados para mantener a tu gato entretenido y activo.",
-    "category": "Juguetes para mascotas",
+    "category": "Juguetes",
     "image": "https://example.com/images/juguetes-gatos.jpg"
   },
   {
@@ -36,7 +36,7 @@ const Articles = [
     "title": "Cama ortopédica para perros grandes",
     "price": 34.99,
     "description": "Una cama cómoda y ortopédica diseñada para perros grandes y con problemas articulares.",
-    "category": "Camas para mascotas",
+    "category": "varios",
     "image": "https://example.com/images/cama-ortopedica.jpg"
   },
   {
@@ -44,7 +44,7 @@ const Articles = [
     "title": "Suplemento vitamínico para perros",
     "price": 19.99,
     "description": "Un suplemento vitamínico que ayuda a mantener la salud y vitalidad de tu perro.",
-    "category": "Suplementos nutricionales",
+    "category": "medicina",
     "image": "https://example.com/images/suplemento-vitaminico.jpg"
   },
   {
@@ -52,7 +52,7 @@ const Articles = [
     "title": "Jaula para pájaros con accesorios",
     "price": 49.99,
     "description": "Una jaula espaciosa y completa con accesorios para aves pequeñas como canarios o periquitos.",
-    "category": "Jaulas para aves",
+    "category": "varios",
     "image": "https://example.com/images/jaula-aves.jpg"
   },
   {
@@ -60,7 +60,7 @@ const Articles = [
     "title": "Correa retráctil para perros",
     "price": 14.99,
     "description": "Una correa retráctil que brinda libertad y control mientras paseas a tu perro.",
-    "category": "Accesorios para perros",
+    "category": "accesorios",
     "image": "https://example.com/images/correa-retractil.jpg"
   },
   {
@@ -68,7 +68,7 @@ const Articles = [
     "title": "Cepillo de dientes para mascotas",
     "price": 5.99,
     "description": "Un cepillo de dientes diseñado para limpiar los dientes de perros y gatos.",
-    "category": "Cuidado dental",
+    "category": "medicina",
     "image": "https://example.com/images/cepillo-dientes.jpg"
   },
   {
@@ -76,7 +76,7 @@ const Articles = [
     "title": "Antibiótico para peces de acuario",
     "price": 7.99,
     "description": "Un tratamiento eficaz para combatir infecciones en peces de acuario.",
-    "category": "Cuidado de peces",
+    "category": "medicina",
     "image": "https://example.com/images/antibiotico-peces.jpg"
   }
 ]
